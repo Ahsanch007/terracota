@@ -1262,7 +1262,7 @@ body {
 
 .font-change {
   color: #524944;
-  font-size: 2vw;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 300;
   font-family: monument, serif;
@@ -1888,6 +1888,7 @@ input::placeholder {
 }
 .title__inner12{
   font-family: Eczar, serif;
+  font-size: 20px !important;
 
 }
 
