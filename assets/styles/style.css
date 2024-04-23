@@ -1153,13 +1153,11 @@ body {
   text-decoration: none;
 }
 .qodef-e-info > * {
-  font-family: monument, serif;
 
   font-size: 12px;
   line-height: 1.66667em;
   font-weight: 500;
   letter-spacing: 0.175em;
-  text-transform: uppercase;
   color: #474f40;
   display: inline-flex;
   vertical-align: middle;
@@ -1394,10 +1392,11 @@ input::placeholder {
   font-weight: 600;
   line-height: 26px;
   letter-spacing: 0em;
+  border-radius: 50px;
   color: #ffff;
   border: none;
   cursor: not-allowed;
-  background-color: #474f40;
+  background-color: #dba171 !important;
 }
 .submit-btn button:enabled {
   cursor: pointer; /* Change cursor when button is enabled */
@@ -1841,6 +1840,19 @@ input::placeholder {
   font-size: 20px;
   width: 70%;
 }
+
+.info{
+  background-color: #FFFBF9;
+  border-radius: 20px; 
+  border: none;
+  padding: 10px 50px;
+  color: #524944;
+  text-decoration: none;
+
+}
+.qodef-m-separator-holder{
+  display: none;
+}
 @media (max-width: 1284px) {
   .equipo__card-content {
     width: 100%;
@@ -1873,6 +1885,10 @@ input::placeholder {
   width: 350px;
   max-width: 100%;
   height: 370px;
+}
+.title__inner12{
+  font-family: Eczar, serif;
+
 }
 
 @media (max-width: 767px) {
@@ -1924,6 +1940,13 @@ input::placeholder {
   font-size: 60px;
   align-self: flex-start;
   font-weight: 500;
+}
+.container22{
+  flex-direction: column;
+}
+.mail__container a{
+  font-family: Eczar, serif;
+
 }
 
 @media (max-width: 600px) {
