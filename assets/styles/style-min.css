@@ -1455,7 +1455,7 @@ img {
 
 @media screen and (max-width: 991px) {
   .atf .atf__inner__container .social__container {
-    margin-top: 30px;
+    margin-top: 0 !important;
   }
 }
 
@@ -2471,11 +2471,19 @@ img {
   display: flex;
   justify-content: center;
 }
-
+.mimbro2{
+  padding: 40px 0px;
+}
 @media screen and (max-width: 768px) {
   .miembros {
     flex-direction: column;
     align-items: center;
+  }
+  .mimbro2{
+    padding: 0px 0px;
+  }
+  .footer2{
+    padding-top: 0px !important;
   }
 }
 
@@ -2725,7 +2733,7 @@ img {
 
 @media screen and (max-width: 768px) {
   .contacto .contacto__container .mail__container .mail {
-    font-size: 4vw;
+    font-size: 6vw;
   }
 }
 
@@ -2737,8 +2745,8 @@ img {
 
 @media screen and (max-width: 768px) {
   .contacto .social__container {
-    margin-top: 32vw;
-    padding-bottom: 30vw;
+    /* margin-top: 32vw;
+    padding-bottom: 30vw; */
   }
 }
 
